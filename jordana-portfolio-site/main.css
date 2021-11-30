@@ -1,0 +1,171 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3 {
+    font-weight: 300 !important;
+    color: #0c0c0c;
+}
+
+p {
+    color: #0c0c0c;
+}
+
+a {
+    color: #2977C9;
+}
+
+a.text-primary:focus,
+a.text-primary:hover {
+    color: #5f7892 !important;
+    transition-duration: .2s;
+}
+
+i.text-muted:focus,
+i.text-muted:hover {
+    color: #0c0c0c !important;
+    transition-duration: .2s;
+}
+
+.black {
+    color: black;
+}
+
+.xsmall-text {
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+
+.line-20 {
+    line-height: 20px;
+}
+
+.hr-short {
+    border: 4px solid #000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 40px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+
+.text-primary {
+    color: #0c0c0c !important;
+}
+
+.text-muted {
+    color: #5f7892!important;
+}
+
+
+.bg-light {
+    background: rgba(235,240,247,0.80) !important;
+}
+
+.container-light {
+    background: #fafbfd;
+}
+
+.container-m {
+    background: #D5BFFD;
+}
+
+.container-r {
+    background: #FFEAB2;
+}
+
+.container-p {
+    background: #D5FDAB;
+}
+
+.container-sg {
+    background: #FEDCAB;
+}
+
+.container-bq {
+  /*background: #FD4C87;*/
+  background: #A73159;
+}
+
+.container-ip {
+    background: #1CA8FC;
+}
+
+
+.feature-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .feature-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+  }
+  
+  .feature-container:hover .feature-image {
+    opacity: 0.12;
+    cursor: pointer;
+  }
+  
+  .feature-container:hover .middle {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .feature-text {
+    color: #0c0c0c;
+    font-size: 50px;
+  }
+
+  .feature-headline {
+    color: #0c0c0c;
+    font-size: 16px;
+  }
+
+  .navbar-light .navbar-toggler {
+      border: none;
+  }
+
+@media (max-width: 767.98px) { 
+    .h3 {
+        font-size: 1.35rem !important;
+    }
+    .h4 {
+        font-size: 1.15rem !important;
+    }
+    .feature-container {
+        width: 100%;
+    }
+    .feature-text {
+        font-size: 40px;
+      }
+    
+    .feature-headline {
+        font-size: 14px;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+ }
+
+ .navbar-nav {
+    flex-direction: row;
+}
