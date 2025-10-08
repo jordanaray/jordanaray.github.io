@@ -30,6 +30,11 @@ i.text-muted:hover {
     color: black;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .xsmall-text {
     font-size: 16px;
     color: #0c0c0c;
@@ -91,6 +96,10 @@ i.text-muted:hover {
 
 .container-ip {
     background: #1CA8FC;
+}
+
+.container-rd {
+    background: #00cbff;
 }
 
 
@@ -168,4 +177,39 @@ i.text-muted:hover {
 
  .navbar-nav {
     flex-direction: row;
+}
+
+/* slider */
+
+#radancy .slick-slider {
+    margin-bottom: 0;
+}
+
+#radancy .slick-next .slick-next-icon, .slick-next .slick-prev-icon, .slick-prev .slick-next-icon, .slick-prev .slick-prev-icon {
+    color: #004085;
+}
+#radancy .slick-autoplay-toggle-button {
+    color: #004085;
+}
+
+#radancy .slick-prev .slick-prev-icon {
+    color: #004085;
+}
+
+.slick-slide img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
+
+.slick-slide {
+    max-height: 215px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
 }
