@@ -16,7 +16,7 @@
 </head>
 
 <body>
-
+    <a href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
     <nav class="navbar navbar-expand-lg navbar-light bg-white container">
         <div class="col mt-4 mb-2 pl-0">
             <div>
@@ -48,7 +48,7 @@
         </div>
     </nav>
 
-    <div class="container pb-5">
+    <div id="main" class="container pb-5">
 
         <section>
             <div class="row mx-lg-0 px-lg-0 flex-wrap-reverse">
@@ -66,7 +66,7 @@
                             SaaS companies, and startups. I'm a Creative Problem Solver with a meticulous eye for detail stemming from a background in visual arts.
                         </p>
                         <p class="line-20">In my free time, you'll find me traveling, dancing, playing videogames, adventuring outdoors, or hanging out with my cat.</p>
-                        <p>Check out my resume <a href="/resume-jordana-ray.pdf" target="_blank">here</a></p>
+                        <p>Check out my resume <a href="/resume-jordana-ray.pdf" aria-label="resume opens in new tab" target="_blank">here</a></p>
                     </div>
                 </div>
             </div>
@@ -76,21 +76,21 @@
 
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <footer class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container py-3">
             <small class="text-muted">© Jordana Ray | All Rights Reserved</small>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item pr-2 pr-lg-0">
                     <a class="nav-link mr-2" href="mailto:jordana@jordanaray.com" target="_blank"><i
-                            class="far fa-envelope text-muted"></i></a>
+                            class="far fa-envelope text-muted"></i><span class="sr-only">email</span></a>
                 </li>
                 <li class="nav-item pr-2 pr-lg-0">
                     <a class="nav-link pr-0" href="https://www.linkedin.com/in/jordana-ray" target="_blank"><i
-                            class="fab fa-linkedin-in text-muted"></i></a>
+                            class="fab fa-linkedin-in text-muted"></i><span class="sr-only">Linkedin</span></a>
                 </li>
             </ul>
         </div>
-    </nav>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

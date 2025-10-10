@@ -6,6 +6,10 @@ h1,h2,h3 {
     color: #0c0c0c;
 }
 
+#home h1 {
+   font-size: 2rem; 
+}
+
 p {
     color: #0c0c0c;
 }
@@ -273,5 +277,11 @@ i.text-muted:hover {
     }
     .radancy-container {
         padding: 40px 20px;
+    }
+}
+
+footer {
+    .text-muted {
+        color: #3d4e60 !important;
     }
 }
